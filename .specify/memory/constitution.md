@@ -1,55 +1,56 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A -> 1.0.0
+Added sections: All principles and sections specific to Physical AI & Humanoid Robotics project
+Removed sections: None
+Modified principles: N/A (new constitution)
+Templates requiring updates:
+- .specify/templates/plan-template.md ✅ updated
+- .specify/templates/spec-template.md ✅ updated
+- .specify/templates/tasks-template.md ✅ updated
+- .specify/templates/commands/*.md ⚠ pending
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Educational Excellence
+Every chapter and example must serve the educational mission of enabling university-level students and practitioners to apply AI knowledge to control Humanoid Robots. Content must be technically accurate, project-driven, and accessible to the target audience with foundational AI knowledge.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Technical Accuracy & Practical Application
+All technical content must be verified against real-world implementations using ROS 2, Gazebo, and NVIDIA Isaac. Theoretical concepts must be paired with practical, executable examples that students can reproduce and experiment with in simulated or real-world environments.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Test-First Learning (NON-NEGOTIABLE)
+Every concept, code snippet, and tutorial must be validated through testing before publication. Code examples must be tested in the target environments (ROS 2, Gazebo, Isaac), with clear instructions for students to verify their implementations work correctly.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Integration with Robotics Frameworks
+Content must seamlessly integrate with established robotics frameworks and tools (ROS 2, Gazebo, NVIDIA Isaac). Each chapter should demonstrate how AI concepts connect to physical robot control, bridging the gap between digital intelligence and physical embodiment.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Accessibility & Progressive Learning
+Material must be structured to accommodate different learning paces, with clear prerequisites, progressive complexity, and multiple entry points. Content should bridge the gap between the digital brain (AI algorithms) and the physical body (robotic systems) in an accessible way.
 
-### [PRINCIPLE_6_NAME]
+### VI. Open Source & Reproducible Research
+All code examples, configurations, and experimental setups must be reproducible by students. Documentation should follow open-source principles with clear licensing, contribution guidelines, and version control practices that encourage student experimentation.
 
+## Technical Standards
 
-[PRINCIPLE__DESCRIPTION]
+### Platform Compatibility
+All tutorials and examples must be compatible with ROS 2, Gazebo simulation environment, and NVIDIA Isaac ecosystem. Cross-platform compatibility should be maintained where possible, with clear documentation of system requirements and dependencies.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Content Quality Assurance
+Technical content undergoes peer review by domain experts. Each chapter includes learning objectives, hands-on projects, and assessment criteria. Code examples follow industry best practices and are regularly updated to reflect changes in underlying frameworks.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Development Workflow
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Iterative Content Development
+Content follows an iterative development process with regular feedback from target audience (students and educators). Draft chapters are tested with sample groups before final publication. Updates incorporate community feedback and advances in robotics/AI technology.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Documentation Standards
+All content follows the Docusaurus book format with consistent structure, navigation, and presentation. Markdown files are organized with proper sidebar configuration and theme integration for optimal learning experience. Deployment to GitHub Pages ensures broad accessibility.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all aspects of the Physical AI & Humanoid Robotics book development. All contributors must adhere to these principles. Amendments require documentation of changes, approval from project maintainers, and a migration plan for existing content.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16
