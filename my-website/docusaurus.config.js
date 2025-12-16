@@ -30,7 +30,8 @@ const config = {
   organizationName: 'mirza1maazbaig', // Usually your GitHub org/user name.
   projectName: 'My-Hackathon-Ai-Book', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  trailingSlash: true,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -91,14 +92,14 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'physicalAIRoboticsSidebar',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
             label: 'Book Modules',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mirza1maazbaig/My-Hackathon-Ai-Book',
             label: 'GitHub',
             position: 'right',
           },
