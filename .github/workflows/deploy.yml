@@ -24,13 +24,13 @@ jobs:
           cache-dependency-path: 'my-website/yarn.lock'
 
       - name: Install dependencies
+        working-directory: my-website
         run: |
-          cd my-website
           yarn install --frozen-lockfile
 
       - name: Build website
+        working-directory: my-website
         run: |
-          cd my-website
           yarn build
 
       # Popular action to deploy to GitHub Pages:
