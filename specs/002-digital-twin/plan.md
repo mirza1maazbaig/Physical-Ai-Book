@@ -28,3 +28,12 @@ Based on the Physical AI & Humanoid Robotics Constitution:
 - ✅ Integration with Robotics Frameworks: Covers integration with ROS 2
 - ✅ Accessibility & Progressive Learning: Content progresses from basic to advanced
 - ✅ Open Source & Reproducible Research: Will reference open-source tools
+
+## Test-First Learning Implementation
+
+To align with the constitution's Test-First Learning principle (III), this module will:
+
+- Include executable examples that can be verified in target environments
+- Provide clear instructions for students to reproduce and test concepts
+- Reference actual Gazebo and Unity implementations for validation
+- Include verification steps for each major concept covered
